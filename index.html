@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AkanfahIshmael.com</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <script src="https://kit.fontawesome.com/a0880b8a50.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.PNG" alt="Logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1><span>Akanfah </span>Ishmael</h1>
+                    <p>Electrical and Electronic Engineer</p>
+                </div>
+            </div>
+        </div>
+    <!-- About Section -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-c1">
+                        <img src="images/user.png " alt="AkanfahIshmael">
+                    </div>
+                    <div class="about-c2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I’m Akanfah Ishmael, an Electrical and Electronic 
+                            Engineer from the University of Mines and Technology (UMaT), 
+                            Ghana, with a career focus on Industrial Automation and 
+                            Robotics. I specialize in developing intelligent control 
+                            systems through PLC programming, AI and Machine Learning 
+                            applications, and CAD-based design and simulation. My work 
+                            also bridges into software-driven automation and embedded 
+                            system design, allowing me to integrate hardware and software 
+                            seamlessly for efficient, reliable, and innovative industrial 
+                            solutions. <br><br>I am passionate about applying automation, 
+                            robotics, and smart technologies to create sustainable systems 
+                            that improve productivity and transform modern industries.
+                        </p>
+                        <div class="tabs-tittle">
+                            <div class="tabs-link active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tabs-link" onclick="opentab('experience')">Experience</div>
+                            <div class="tabs-link" onclick="opentab('education')">Education and Certifications</div>
+                        </div>
+                        <!---SKills Tab-->
+                        <div class="tab-contents active-content" id="skills">
+                            <ul>
+                                <li><span>Industrial Automation and PLC Programming</span><br>
+                                Designing and implementing automation systems with PLCs 
+                                and control logic.
+                                </li>
+                                <li><span>Robotics and Embedded Systems</span><br>
+                                Building and programming intelligent robotic and embedded 
+                                solutions.
+                                </li>
+                                <li><span>Computer-Aided Design (CAD) and Simulation</span><br>
+                                Modeling, designing, and testing engineering systems before
+                                implementation.
+                                </li>
+                                <li><span>Artificial Intelligence and Machine Learning</span><br>
+                                Applying smart algorithms to automation, control, and 
+                                computer vision systems.
+                                </li>
+                            </ul>
+                        </div>
+                        <!---Experience Tabs-->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Robotics and Electronics Tutor</span><br>
+                                    Aaenics Robotics Community, UMaT
+                                </li>
+                                <li><span>Intern, Electrical Distribution Systems</span><br>
+                                    Electricity Company of Ghana <strong>ECG</strong>, Tarkwa
+                                </li>
+                                <li><span>Intern, Engineering Works</span><br>
+                                    Ghana Armed Forces; 494 Engineering Works Troops, Sunyani
+                                </li>
+                                <li><span>Project Experience</span><br>
+                                    University and Independent Projects
+                                </li>
+                            </ul>
+                        </div>
+                        <!---Education and Certification Tabs-->
+                        <div class="tab-contents" id="education">
+                            <div class="education">
+                                <p class="edu"><strong>Education</strong></p> 
+                                <ul>
+                                    <li><span>BSc Electrical and Electronic Engineering</span> 
+                                        <br>University of Mines and Technology <strong>UMaT</strong>, 
+                                        Ghana; Year of Completion <strong>2025</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="certifications">
+                                <p><strong>Certifications</strong></p>
+                                <ul>
+                                    <li>
+                                        <span>Industrial Automation with Siemens PLC (TIA Portal)</span> 
+                                        <br>Automation Community;  Year: <strong>2025</strong>  
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+<!----------------------Services Sections---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Industrial Automation Solutions</h2>
+                    <p>Design and implementation of automation systems using PLCs, SCADA, and HMI to optimize industrial processes.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-audio-description"></i>
+                    <h2>Embedded Systems Design</h2>
+                    <p>Development of embedded systems for IoT devices, smart sensors, and control systems using microcontrollers and real-time operating systems.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2>CAD Modeling and Simulation</h2>
+                    <p>Creating detailed 3D models and simulations of electrical and electronic systems to aid in design validation and optimization.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-binary"></i>
+                    <h2>AI and Machine Learning Integration</h2>
+                    <p>Incorporating AI and machine learning algorithms into automation and control systems to enhance performance and adaptability.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----Portforlio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/conveyor.png" alt="Work1">
+                    <div class="layer">
+                        <h3>Automated Conveyor Belt System</h3>
+                        <p>Designed and implemented an automated conveyor belt system using PLC programming to optimize material handling in a manufacturing setup.</p>
+                        <a href="https://www.linkedin.com/posts/akanfahishmael_industrialautomation-plcprogramming-tiaportal-activity-7339985290133975040-f28Y?utm_medium=ios_app&rcm=ACoAAD0JoMMB17xq5k19D-Cr90rgPsXQTRUsfy8&utm_source=social_share_video_v2&utm_campaign=copy_link"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/cleanbot.png" alt="Work1">
+                    <div class="layer">
+                        <h3>Automated Conveyor Belt System</h3>
+                        <p>Designed and implemented an automated conveyor belt system using PLC programming to optimize material handling in a manufacturing setup.</p>
+                        <a href="https://www.linkedin.com/posts/akanfahishmael_engineeringdesign-robotics-electricalengineering-activity-7327520795612610560-0ihK?utm_medium=ios_app&rcm=ACoAAD0JoMMB17xq5k19D-Cr90rgPsXQTRUsfy8&utm_source=social_share_send&utm_campaign=copy_link"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/fwd.png" alt="Work1">
+                    <div class="layer">
+                        <h3>Automated Conveyor Belt System</h3>
+                        <p>Designed and implemented an automated conveyor belt system using PLC programming to optimize material handling in a manufacturing setup.</p>
+                        <a href="https://www.linkedin.com/posts/akanfahishmael_automation-robotics-industrialautomation-activity-7372540240886005760-ocd7?utm_medium=ios_app&rcm=ACoAAD0JoMMB17xq5k19D-Cr90rgPsXQTRUsfy8&utm_source=social_share_send&utm_campaign=copy_link"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="https://www.linkedin.com/in/akanfahishmael">See More</a>
+        </div>
+    </div>
+    <!-----Contact Section----->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>akanfahishmael7@gmail.com</p>
+                    <p><i class="fa-sharp-duotone fa-solid fa-phone"></i>+233558020084</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akanfahishmael"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/akanfahishmael"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/akanfahishmael"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/akanfahishmael"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Akanfah_Ishmael_CV_0406.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="https://formspree.io/f/mgebjvdp" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> akanfahishmael. A Personal Website</p>
+        </div>
+    </div>
+
+    <!-------Javascript Codes-->
+    <script>
+        var tablinks = document.getElementsByClassName("tabs-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-content");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-content");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxrcGh6gexHW4ExQoLYp1sevxera4m3jRREqUIxf2RCjCuWzlG_2aqtarVgEQWYxwAw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        msg.style.display = "none";
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Sent Successfully";
+                msg.style.display = "block";
+                setTimeout(function(){
+                    msg.style.display = "none";
+                },5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    </body>
+</html>
